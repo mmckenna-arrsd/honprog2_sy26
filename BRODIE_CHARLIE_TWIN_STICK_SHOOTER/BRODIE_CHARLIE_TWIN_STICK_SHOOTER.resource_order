@@ -1,0 +1,10 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_enemy_strong","order":2,"path":"objects/obj_enemy_strong/obj_enemy_strong.yy",},
+    {"name":"obj_health_kit","order":1,"path":"objects/obj_health_kit/obj_health_kit.yy",},
+    {"name":"spr_enemy_strong","order":2,"path":"sprites/spr_enemy_strong/spr_enemy_strong.yy",},
+    {"name":"Sprite59","order":1,"path":"sprites/Sprite59/Sprite59.yy",},
+    {"name":"Sprite60","order":1,"path":"sprites/Sprite60/Sprite60.yy",},
+  ],
+}
