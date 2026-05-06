@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_health_kit",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_bullet_powerup",
+  "eventList":[],
   "managed":true,
-  "name":"obj_health_kit",
+  "name":"obj_bullet_powerup",
   "overriddenProperties":[],
   "parent":{
     "name":"Actors",
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"health_kit",
-    "path":"sprites/health_kit/health_kit.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
