@@ -1,26 +1,20 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 29B6857D
-/// @DnDArgument : "expr" "-35"
+/// @DnDHash : 53E46CEE
+/// @DnDArgument : "expr" "-5"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "health"
-health += -35;
-
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 7D5BD99C
-/// @DnDApplyTo : {Bullet}
-with(Bullet) instance_destroy();
+health += -5;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 7E27AB6C
+/// @DnDHash : 34783332
 /// @DnDArgument : "var" "health"
 /// @DnDArgument : "op" "3"
 if(health <= 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 781C2459
-	/// @DnDParent : 7E27AB6C
+	/// @DnDHash : 36C25F5E
+	/// @DnDParent : 34783332
 	/// @DnDArgument : "expr" "50"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "OBJ_Score.Points"
@@ -28,14 +22,14 @@ if(health <= 0){	/// @DnDAction : YoYo Games.Common.Variable
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 14BFF8C6
-	/// @DnDParent : 7E27AB6C
+	/// @DnDHash : 5D69FCA0
+	/// @DnDParent : 34783332
 	instance_destroy();
 
 	/// @DnDAction : YoYo Games.Particles.Effect
 	/// @DnDVersion : 1
-	/// @DnDHash : 426A0AE2
-	/// @DnDParent : 7E27AB6C
+	/// @DnDHash : 48F56157
+	/// @DnDParent : 34783332
 	/// @DnDArgument : "x_relative" "1"
 	/// @DnDArgument : "y_relative" "1"
 	/// @DnDArgument : "where" "1"
@@ -44,16 +38,16 @@ if(health <= 0){	/// @DnDAction : YoYo Games.Common.Variable
 
 	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDVersion : 1
-	/// @DnDHash : 7E7DA7B2
-	/// @DnDParent : 7E27AB6C
+	/// @DnDHash : 22747BDE
+	/// @DnDParent : 34783332
 	/// @DnDArgument : "var" "RNDRMPNT"
 	/// @DnDArgument : "max" "1900"
 	RNDRMPNT = (random_range(0, 1900));
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 59C9AEFE
-	/// @DnDParent : 7E27AB6C
+	/// @DnDHash : 4EA1BC43
+	/// @DnDParent : 34783332
 	/// @DnDArgument : "ypos" "RNDRMPNT"
 	/// @DnDArgument : "objectid" "OBJ_Bigrock"
 	/// @DnDSaveInfo : "objectid" "OBJ_Bigrock"

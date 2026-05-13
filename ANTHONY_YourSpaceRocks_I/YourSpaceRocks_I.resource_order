@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"Beam","order":10,"path":"objects/Beam/Beam.yy",},
     {"name":"Bullet","order":3,"path":"objects/Bullet/Bullet.yy",},
     {"name":"OBJ_Bigrock","order":1,"path":"objects/OBJ_Bigrock/OBJ_Bigrock.yy",},
     {"name":"OBJ_Button_Back","order":7,"path":"objects/OBJ_Button_Back/OBJ_Button_Back.yy",},
