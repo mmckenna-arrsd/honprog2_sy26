@@ -19,10 +19,10 @@ var l7929189A_0;l7929189A_0 = keyboard_check(vk_left);if (l7929189A_0){	/// 
 	/// @DnDVersion : 1
 	/// @DnDHash : 6BDC5DC9
 	/// @DnDParent : 7929189A
-	/// @DnDArgument : "expr" "4"
+	/// @DnDArgument : "expr" "5"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "image_angle"
-	image_angle += 4;}
+	image_angle += 5;}
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
