@@ -8,8 +8,8 @@ var l60B7E5B7_0;l60B7E5B7_0 = keyboard_check(vk_up);if (l60B7E5B7_0){	/// @D
 	/// @DnDHash : 678B6745
 	/// @DnDParent : 60B7E5B7
 	/// @DnDArgument : "dir" "image_angle"
-	/// @DnDArgument : "speed" "0.1"
-	motion_add(image_angle, 0.1);}
+	/// @DnDArgument : "speed" "0.2"
+	motion_add(image_angle, 0.2);}
 
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 /// @DnDVersion : 1
