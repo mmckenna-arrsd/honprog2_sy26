@@ -33,3 +33,10 @@ speed = 3;
 /// @DnDHash : 437295BD
 /// @DnDArgument : "var" "addedrocks"
 addedrocks = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5B9DFC40
+/// @DnDArgument : "expr" "50"
+/// @DnDArgument : "var" "health"
+health = 50;
