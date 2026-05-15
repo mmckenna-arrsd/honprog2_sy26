@@ -1,7 +1,5 @@
 // inputs
-rightkey = keyboard_check(vk_right);
-leftkey = keyboard_check(vk_left);
-jumpkeyPressed= keyboard_check_pressed(vk_space)
+getcontrols()
 
 // movement direction
 	movedir = rightkey-leftkey;
