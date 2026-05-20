@@ -1,3 +1,6 @@
+//control setup
+controlsetup()
+
 // movement
 movedir = 0;
 move_speed = 2;

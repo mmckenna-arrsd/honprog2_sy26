@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Script1",
+  "%Name":"general_functions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script1",
+  "name":"general_functions",
   "parent":{
     "name":"Metroidvania attempt 1",
     "path":"Metroidvania attempt 1.yyp",

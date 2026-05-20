@@ -34,12 +34,20 @@ getcontrols()
 	if yspd > termvel {yspd=termvel;}
 	
 	//Jump
-	if jumpkeyPressed && place_meeting(x, y+1, obj_wall)
+	if jumpkeybuffered && place_meeting(x, y+1, obj_wall)
 	{
+		//reset the buffer
+		jumpkeybuffered=false;
+		jumpkeybuffertimer=0;
+		
+		//set yspd to jspd
 		yspd=jspd;
 	}
 	
 	//Y Collision
+	//cap falling speed
+	if yspd>termvel {yspd=termvel};
+	
 	var _subPixel= .5;
 	if place_meeting(x, y+yspd, obj_wall)
 	{
