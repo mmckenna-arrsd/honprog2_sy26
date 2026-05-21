@@ -61,6 +61,7 @@
     {"id":{"name":"spr_bullet_beam","path":"sprites/spr_bullet_beam/spr_bullet_beam.yy",},},
     {"id":{"name":"spr_bullet_mine","path":"sprites/spr_bullet_mine/spr_bullet_mine.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
+    {"id":{"name":"spr_missile","path":"sprites/spr_missile/spr_missile.yy",},},
     {"id":{"name":"spr_player_loaded_boost","path":"sprites/spr_player_loaded_boost/spr_player_loaded_boost.yy",},},
     {"id":{"name":"spr_player_loaded","path":"sprites/spr_player_loaded/spr_player_loaded.yy",},},
     {"id":{"name":"spr_player_unloaded_boost","path":"sprites/spr_player_unloaded_boost/spr_player_unloaded_boost.yy",},},

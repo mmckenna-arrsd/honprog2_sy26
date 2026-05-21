@@ -9,21 +9,14 @@ loaded = 1;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1EBF9CEA
-/// @DnDComment : Checks if empty chamber
+/// @DnDComment : Ammo
 /// @DnDArgument : "var" "spentammo"
 spentammo = 0;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 51992D1F
-/// @DnDComment : Reload System
+/// @DnDComment : Chamber
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "chamber"
 chamber = 1;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 221632EA
-/// @DnDArgument : "expr" "image_angle"
-/// @DnDArgument : "var" "Playerface"
-Playerface = image_angle;

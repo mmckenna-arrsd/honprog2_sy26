@@ -22,6 +22,7 @@
     {"name":"Button_Start","order":2,"path":"sprites/Button_Start/Button_Start.yy",},
     {"name":"spr_bullet_beam","order":7,"path":"sprites/spr_bullet_beam/spr_bullet_beam.yy",},
     {"name":"spr_bullet_mine","order":10,"path":"sprites/spr_bullet_mine/spr_bullet_mine.yy",},
+    {"name":"spr_missile","order":11,"path":"sprites/spr_missile/spr_missile.yy",},
     {"name":"spr_player_loaded_boost","order":5,"path":"sprites/spr_player_loaded_boost/spr_player_loaded_boost.yy",},
     {"name":"spr_player_unloaded_boost","order":6,"path":"sprites/spr_player_unloaded_boost/spr_player_unloaded_boost.yy",},
     {"name":"spr_player_unloaded","order":4,"path":"sprites/spr_player_unloaded/spr_player_unloaded.yy",},
