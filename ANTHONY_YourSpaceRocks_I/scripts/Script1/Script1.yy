@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Script1",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"Script1",
+  "parent":{
+    "name":"YourSpaceRocks_I",
+    "path":"YourSpaceRocks_I.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
