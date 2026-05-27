@@ -89,6 +89,7 @@
     {"id":{"name":"obj_reload_hud_element","path":"objects/obj_reload_hud_element/obj_reload_hud_element.yy",},},
     {"id":{"name":"obj_splash_manager","path":"objects/obj_splash_manager/obj_splash_manager.yy",},},
     {"id":{"name":"obj_touch_manager","path":"objects/obj_touch_manager/obj_touch_manager.yy",},},
+    {"id":{"name":"Object37","path":"objects/Object37/Object37.yy",},},
     {"id":{"name":"ps_character_defeat","path":"particles/ps_character_defeat/ps_character_defeat.yy",},},
     {"id":{"name":"ps_dust_smoke","path":"particles/ps_dust_smoke/ps_dust_smoke.yy",},},
     {"id":{"name":"ps_enemy_shot","path":"particles/ps_enemy_shot/ps_enemy_shot.yy",},},

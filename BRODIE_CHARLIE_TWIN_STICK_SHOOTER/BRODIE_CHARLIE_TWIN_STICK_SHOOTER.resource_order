@@ -4,6 +4,7 @@
     {"name":"obj_bullet_powerup","order":3,"path":"objects/obj_bullet_powerup/obj_bullet_powerup.yy",},
     {"name":"obj_enemy_strong","order":2,"path":"objects/obj_enemy_strong/obj_enemy_strong.yy",},
     {"name":"obj_health_kit","order":1,"path":"objects/obj_health_kit/obj_health_kit.yy",},
+    {"name":"Object37","order":1,"path":"objects/Object37/Object37.yy",},
     {"name":"bullet_powerup","order":1,"path":"sprites/bullet_powerup/bullet_powerup.yy",},
     {"name":"health_kit","order":1,"path":"sprites/health_kit/health_kit.yy",},
     {"name":"spr_enemy_strong","order":2,"path":"sprites/spr_enemy_strong/spr_enemy_strong.yy",},
