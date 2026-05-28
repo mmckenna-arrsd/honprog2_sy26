@@ -48,7 +48,6 @@ getcontrols()
 	//cap falling speed
 	if yspd>termvel {yspd=termvel};
 	
-	var _subPixel= .5;
 	if place_meeting(x, y+yspd, obj_wall)
 	{
 		//Scoot up to the wall precisely
