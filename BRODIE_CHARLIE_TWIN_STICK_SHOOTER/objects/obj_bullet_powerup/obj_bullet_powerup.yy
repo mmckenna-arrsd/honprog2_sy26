@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"bullet_powerup",
+    "path":"sprites/bullet_powerup/bullet_powerup.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
