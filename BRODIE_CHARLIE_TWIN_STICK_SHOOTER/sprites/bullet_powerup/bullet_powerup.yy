@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"BRODIE_CHARLIE_TWIN_STICK_SHOOTER",
+    "path":"BRODIE_CHARLIE_TWIN_STICK_SHOOTER.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
