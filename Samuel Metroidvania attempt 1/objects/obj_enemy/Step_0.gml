@@ -27,7 +27,6 @@ yspd+=grav;
 	//cap falling speed
 	if yspd>termvel {yspd=termvel};
 	
-	var _subPixel= .5;
 	if place_meeting(x, y+yspd, obj_wall)
 	{
 		//Scoot up to the wall precisely
@@ -47,5 +46,13 @@ yspd+=grav;
 //enemy collision
 if place_meeting(x, y, obj_player)
 {
-	
+	if obj_player.y < y-8
+	{
+		with (obj_player) yspd=jspd;
+		instance_destroy();
+	}
+	else
+	{
+		game_restart();
+	}
 }
