@@ -39,7 +39,7 @@ if(drop_health_kit == 3)
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "min" "1"
 /// @DnDArgument : "max" "5"
-drop_bullet_poweup = floor(random_range(1, 5 + 1));
+drop_bullet_poweup = floor(random_range(1, 9 + 1));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
