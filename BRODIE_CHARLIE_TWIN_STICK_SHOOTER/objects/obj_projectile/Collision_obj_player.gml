@@ -5,9 +5,7 @@
 /// @DnDArgument : "var" "owner.id"
 /// @DnDArgument : "not" "1"
 /// @DnDArgument : "value" "other.id"
-if(!(owner.id == other.id))
-{
-	/// @DnDAction : YoYo Games.Common.If_Variable
+if(!(owner.id == other.id)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 30F3FF72
 	/// @DnDComment : // Checks if the player is flashed
@@ -15,18 +13,14 @@ if(!(owner.id == other.id))
 	/// @DnDArgument : "var" "other.is_flashed"
 	/// @DnDArgument : "not" "1"
 	/// @DnDArgument : "value" "true"
-	if(!(other.is_flashed == true))
-	{
-		/// @DnDAction : YoYo Games.Common.If_Variable
+	if(!(other.is_flashed == true)){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 5224B81D
 		/// @DnDComment : // Checks if the owner is a player
 		/// @DnDParent : 30F3FF72
 		/// @DnDArgument : "var" "owner.object_index"
 		/// @DnDArgument : "value" "obj_player"
-		if(owner.object_index == obj_player)
-		{
-			/// @DnDAction : YoYo Games.Common.Temp_Variable
+		if(owner.object_index == obj_player){	/// @DnDAction : YoYo Games.Common.Temp_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 664E12AB
 			/// @DnDComment : // Stores the owners local id
@@ -49,9 +43,7 @@ if(!(owner.id == other.id))
 				/// @DnDParent : 432BE5DC
 				/// @DnDArgument : "var" "player_local_id"
 				/// @DnDArgument : "value" "_owner_id"
-				if(player_local_id == _owner_id)
-				{
-					/// @DnDAction : YoYo Games.Common.Variable
+				if(player_local_id == _owner_id){	/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1
 					/// @DnDHash : 087AE36B
 					/// @DnDComment : // Increases the players score by 500
@@ -59,10 +51,8 @@ if(!(owner.id == other.id))
 					/// @DnDArgument : "expr" "500"
 					/// @DnDArgument : "expr_relative" "1"
 					/// @DnDArgument : "var" "player_score"
-					player_score += 500;
-				}
-			}
-		}
+					player_score += 500;}
+			}}
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -91,8 +81,7 @@ if(!(owner.id == other.id))
 		/// @DnDArgument : "soundid" "snd_player_hit"
 		/// @DnDArgument : "gain" "0.6"
 		/// @DnDSaveInfo : "soundid" "snd_player_hit"
-		var _sound_player_hit = audio_play_sound(snd_player_hit, 0, 0, 0.6, undefined, 1.0);
-	}
+		var _sound_player_hit = audio_play_sound(snd_player_hit, 0, 0, 0.6, undefined, 1.0);}
 
 	/// @DnDAction : YoYo Games.Common.Function_Call
 	/// @DnDVersion : 1
@@ -100,5 +89,4 @@ if(!(owner.id == other.id))
 	/// @DnDComment : // Calls spark projectile function
 	/// @DnDParent : 44D52CD6
 	/// @DnDArgument : "function" "spark_projectile"
-	spark_projectile();
-}
+	spark_projectile();}

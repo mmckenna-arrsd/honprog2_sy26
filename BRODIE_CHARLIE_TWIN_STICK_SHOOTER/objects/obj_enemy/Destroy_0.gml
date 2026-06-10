@@ -1,4 +1,5 @@
-
+// // Creates a new instance of a dead state of the enemy
+var _body = instance_create_layer(x + 0, y + 0, "Bodies", obj_enemy_dead);
 /// @DnDAction : YoYo Games.Random.Get_Random_Number
 /// @DnDVersion : 1
 /// @DnDHash : 3503A1F0
