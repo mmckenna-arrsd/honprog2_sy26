@@ -49,3 +49,17 @@ shouldrotate = floor(random_range(1, 3 + 1));
 /// @DnDArgument : "min" "3"
 /// @DnDArgument : "max" "14"
 speed = floor(random_range(3, 14 + 1));
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4F2822BA
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "Aperation"
+Aperation = 1;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 3D2E45BC
+/// @DnDArgument : "steps" "62"
+/// @DnDArgument : "alarm" "7"
+alarm_set(7, 62);

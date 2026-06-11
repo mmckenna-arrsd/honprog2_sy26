@@ -1,3 +1,8 @@
+/// @DnDAction : YoYo Games.Game.Restart_Game
+/// @DnDVersion : 1
+/// @DnDHash : 2ADC3875
+game_restart();
+
 /// @DnDAction : YoYo Games.Particles.Effect
 /// @DnDVersion : 1
 /// @DnDHash : 2984AA30
@@ -7,8 +12,3 @@
 /// @DnDArgument : "size" "2"
 /// @DnDArgument : "color" "$FF0000FF"
 effect_create_above(0, x + 0, y + 0, 2, $FF0000FF & $ffffff);
-
-/// @DnDAction : YoYo Games.Game.Restart_Game
-/// @DnDVersion : 1
-/// @DnDHash : 2ADC3875
-game_restart();

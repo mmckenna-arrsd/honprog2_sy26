@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="First Game"
+run/main_scene="uid://5fneicj2w002"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
 
 [physics]
 
@@ -21,3 +27,4 @@ config/icon="res://icon.svg"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+environment/defaults/default_clear_color=Color(0.00093636644, 0.00093636644, 0.00093636644, 1)
