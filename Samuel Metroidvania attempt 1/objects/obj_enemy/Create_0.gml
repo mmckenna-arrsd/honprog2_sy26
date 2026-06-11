@@ -1,8 +1,5 @@
-//control setup
-controlsetup()
-
 // movement
-movedir = 0;
+movedir = 1;
 move_speed = 2;
 xspd = 0;
 yspd = 0;

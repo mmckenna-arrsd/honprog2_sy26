@@ -23,11 +23,16 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"is_flashing","filters":[],"listItems":[],"multiselect":false,"name":"is_flashing","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1.0","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"bullet_powerup",
+    "path":"sprites/bullet_powerup/bullet_powerup.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

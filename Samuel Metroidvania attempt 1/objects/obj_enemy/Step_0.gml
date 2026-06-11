@@ -1,13 +1,7 @@
-// inputs
-getcontrols()
+xspd=movedir*move_speed;
+yspd+=grav;
 
-// movement direction
-	movedir = rightkey-leftkey;
-
-	//Get xspd
-	xspd = movedir*move_speed;
-
-	//x collision
+//x collision
 	var _subPixel = .5;
 	if place_meeting(x + xspd, y, obj_wall)
 	{
@@ -18,33 +12,18 @@ getcontrols()
 			x+= _pixelCheck;
 		}
 	
-		//Set xspd to zero to "collide"
+		//Set xspd to zero to collide
 		xspd=0;
+		movedir*=-1;
 	}
-
-	//Move
+	
+	//move
 	x+=xspd;
 
-
-//Y Movement
-	//Gravity
-	yspd+= grav;
-	
-	//cap falling speed
+//cap falling speed
 	if yspd > termvel {yspd=termvel;}
-	
-	//Jump
-	if jumpkeybuffered && place_meeting(x, y+1, obj_wall)
-	{
-		//reset the buffer
-		jumpkeybuffered=false;
-		jumpkeybuffertimer=0;
-		
-		//set yspd to jspd
-		yspd=jspd;
-	}
-	
-	//Y Collision
+
+//Y Collision
 	//cap falling speed
 	if yspd>termvel {yspd=termvel};
 	
@@ -60,6 +39,20 @@ getcontrols()
 		//Set yspd to 0 to collide
 		yspd=0;
 	}
-	
-	//Move
+
+	//move
 	y+=yspd;
+	
+//enemy collision
+if place_meeting(x, y, obj_player)
+{
+	if obj_player.y < y-8
+	{
+		with (obj_player) yspd=jspd;
+		instance_destroy();
+	}
+	else
+	{
+		game_restart();
+	}
+}

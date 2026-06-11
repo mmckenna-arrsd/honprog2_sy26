@@ -4,9 +4,7 @@
 /// @DnDComment : // Checks if the owner is a player
 /// @DnDArgument : "var" "owner.object_index"
 /// @DnDArgument : "value" "obj_player"
-if(owner.object_index == obj_player)
-{
-	/// @DnDAction : YoYo Games.Common.If_Variable
+if(owner.object_index == obj_player){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 7B7A2004
 	/// @DnDComment : // Checks if the enemy not flashed and able to take damage
@@ -14,9 +12,7 @@ if(owner.object_index == obj_player)
 	/// @DnDArgument : "var" "other.is_flashing"
 	/// @DnDArgument : "not" "1"
 	/// @DnDArgument : "value" "true"
-	if(!(other.is_flashing == true))
-	{
-		/// @DnDAction : YoYo Games.Common.Temp_Variable
+	if(!(other.is_flashing == true)){	/// @DnDAction : YoYo Games.Common.Temp_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 1DA3044E
 		/// @DnDComment : // Sets player id$(13_10)// Sets inital score
@@ -63,17 +59,14 @@ if(owner.object_index == obj_player)
 		/// @DnDParent : 7B7A2004
 		/// @DnDArgument : "var" "other.curr_health"
 		/// @DnDArgument : "op" "3"
-		if(other.curr_health <= 0)
-		{
-			/// @DnDAction : YoYo Games.Common.Variable
+		if(other.curr_health <= 0){	/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 6D1B5037
 			/// @DnDComment : // Changes possible score to 300
 			/// @DnDParent : 147623BA
 			/// @DnDArgument : "expr" "300"
 			/// @DnDArgument : "var" "_score"
-			_score = 300;
-		}
+			_score = 300;}
 	
 		/// @DnDAction : YoYo Games.Common.Apply_To
 		/// @DnDVersion : 1
@@ -89,9 +82,7 @@ if(owner.object_index == obj_player)
 			/// @DnDParent : 55C778A9
 			/// @DnDArgument : "var" "player_local_id"
 			/// @DnDArgument : "value" "_owner_id"
-			if(player_local_id == _owner_id)
-			{
-				/// @DnDAction : YoYo Games.Common.Variable
+			if(player_local_id == _owner_id){	/// @DnDAction : YoYo Games.Common.Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 674E04FF
 				/// @DnDComment : // Increases the players score
@@ -99,10 +90,8 @@ if(owner.object_index == obj_player)
 				/// @DnDArgument : "expr" "_score"
 				/// @DnDArgument : "expr_relative" "1"
 				/// @DnDArgument : "var" "player_score"
-				player_score += _score;
-			}
-		}
-	}
+				player_score += _score;}
+		}}
 
 	/// @DnDAction : YoYo Games.Common.Function_Call
 	/// @DnDVersion : 1
@@ -110,5 +99,4 @@ if(owner.object_index == obj_player)
 	/// @DnDComment : // Calls spark projectile function
 	/// @DnDParent : 4D18BABD
 	/// @DnDArgument : "function" "spark_projectile"
-	spark_projectile();
-}
+	spark_projectile();}
