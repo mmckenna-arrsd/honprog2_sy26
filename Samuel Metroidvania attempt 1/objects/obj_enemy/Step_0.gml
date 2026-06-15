@@ -56,3 +56,17 @@ if place_meeting(x, y, obj_player)
 		game_restart();
 	}
 }
+
+if place_meeting(x + xspd, y, obj_enemy)
+	{
+		//Scoot up to wall precisely
+		var _pixelCheck = _subPixel * sign(xspd);
+		while !place_meeting(x + _pixelCheck, y, obj_enemy)
+		{
+			x+= _pixelCheck;
+		}
+	
+		//Set xspd to zero to collide
+		xspd=0;
+		movedir*=-1;
+	}
