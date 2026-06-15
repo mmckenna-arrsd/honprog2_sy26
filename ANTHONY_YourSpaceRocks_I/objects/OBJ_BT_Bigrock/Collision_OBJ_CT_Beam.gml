@@ -13,19 +13,18 @@ health += -9;
 /// @DnDArgument : "var" "Reversed"
 if(Reversed == 0){	/// @DnDAction : YoYo Games.Movement.Set_Direction_Free
 	/// @DnDVersion : 1
-	/// @DnDHash : 244B38E3
+	/// @DnDHash : 766F05CD
 	/// @DnDParent : 37C3EC44
-	/// @DnDArgument : "direction" "OBJ_BT_Player.image_angle"
-	direction = OBJ_BT_Player.image_angle;
+	/// @DnDArgument : "direction" "OBJ_CT_Beam.image_angle"
+	direction = OBJ_CT_Beam.image_angle;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 06058FBC
+	/// @DnDHash : 62B775CD
 	/// @DnDParent : 37C3EC44
-	/// @DnDArgument : "expr" "-0.5"
-	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "expr" "20"
 	/// @DnDArgument : "var" "speed"
-	speed += -0.5;
+	speed = 20;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

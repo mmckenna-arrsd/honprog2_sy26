@@ -1,5 +1,28 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 40948809
+/// @DnDArgument : "var" "Aperation"
+/// @DnDArgument : "value" "1"
+if(Aperation == 1){	/// @DnDAction : YoYo Games.Instances.Color_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 665BBABB
+	/// @DnDParent : 40948809
+	/// @DnDArgument : "colour" "$FF0000FF"
+	image_blend = $FF0000FF & $ffffff;
+	image_alpha = ($FF0000FF >> 24) / $ff;}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 2D620B6F
+else{	/// @DnDAction : YoYo Games.Instances.Color_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 01665B58
+	/// @DnDParent : 2D620B6F
+	image_blend = $FFFFFFFF & $ffffff;
+	image_alpha = ($FFFFFFFF >> 24) / $ff;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 3AFD1CC8
 /// @DnDComment : Checks if should rotate
 /// @DnDArgument : "var" "shouldrotate"
@@ -57,18 +80,20 @@ if(health <= 0){	/// @DnDAction : YoYo Games.Common.Variable
 
 	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDVersion : 1
-	/// @DnDHash : 7D1E3A47
-	/// @DnDComment : Replicates
+	/// @DnDHash : 0ED94D01
 	/// @DnDParent : 6163FE52
-	/// @DnDArgument : "var" "RNDRMPNT"
-	/// @DnDArgument : "max" "1900"
-	RNDRMPNT = (random_range(0, 1900));
+	/// @DnDArgument : "var" "Rockdeathrepawnpoints"
+	/// @DnDArgument : "max" "9800"
+	Rockdeathrepawnpoints = (random_range(0, 9800));
 
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 3A540E32
+	/// @DnDHash : 67F56A16
 	/// @DnDParent : 6163FE52
-	/// @DnDArgument : "ypos" "RNDRMPNT"
+	/// @DnDArgument : "xpos" "Rockdeathrepawnpoints"
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos" "Rockdeathrepawnpoints"
+	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "OBJ_BT_Bigrock"
 	/// @DnDSaveInfo : "objectid" "OBJ_BT_Bigrock"
-	instance_create_layer(0, RNDRMPNT, "Instances", OBJ_BT_Bigrock);}
+	instance_create_layer(x + Rockdeathrepawnpoints, y + Rockdeathrepawnpoints, "Instances", OBJ_BT_Bigrock);}

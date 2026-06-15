@@ -16,3 +16,10 @@ direction = OBJ_BT_Player.image_angle;
 /// @DnDHash : 1457B494
 /// @DnDArgument : "angle" "OBJ_BT_Player.image_angle"
 image_angle = OBJ_BT_Player.image_angle;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 253F344D
+/// @DnDArgument : "steps" "101"
+/// @DnDArgument : "alarm" "7"
+alarm_set(7, 101);

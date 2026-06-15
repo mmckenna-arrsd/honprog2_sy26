@@ -10,3 +10,9 @@ speed = 22;
 /// @DnDHash : 4EB01911
 /// @DnDArgument : "direction" "OBJ_BT_Player.image_angle"
 direction = OBJ_BT_Player.image_angle;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+/// @DnDVersion : 1
+/// @DnDHash : 202B7E42
+/// @DnDArgument : "angle" "OBJ_BT_Player.image_angle"
+image_angle = OBJ_BT_Player.image_angle;
