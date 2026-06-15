@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"OBJ_NewRockProtection",
+  "%Name":"Mapmova",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":9,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OBJ_NewRockProtection",
+  "name":"Mapmova",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,11 +30,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"Protective_Bubble",
     "path":"sprites/Protective_Bubble/Protective_Bubble.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

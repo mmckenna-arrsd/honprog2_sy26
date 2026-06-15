@@ -18,15 +18,16 @@ room_goto(rm_game);
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 0498989F
-/// @DnDApplyTo : {OBJ_Score}
-with(OBJ_AT_Score) instance_destroy();
+/// @DnDDisabled : 1
+/// @DnDApplyTo : OBJ_Score
+
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 1608F9A6
 /// @DnDArgument : "xpos" "10"
 /// @DnDArgument : "ypos" "10"
-/// @DnDArgument : "objectid" "OBJ_Score"
+/// @DnDArgument : "objectid" "OBJ_AT_Score"
 /// @DnDArgument : "layer" "rm_game"
-/// @DnDSaveInfo : "objectid" "OBJ_Score"
+/// @DnDSaveInfo : "objectid" "OBJ_AT_Score"
 instance_create_layer(10, 10, rm_game, OBJ_AT_Score);

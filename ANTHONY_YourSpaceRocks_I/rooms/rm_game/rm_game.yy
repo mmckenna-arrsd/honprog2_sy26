@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_game",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_game/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -18,10 +18,10 @@
     {"name":"inst_29A64B0F","path":"rooms/rm_game/rm_game.yy",},
     {"name":"inst_3D35F0CB","path":"rooms/rm_game/rm_game.yy",},
   ],
-  "isDnd":false,
+  "isDnd":true,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":1,"gridY":1,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v4","%Name":"inst_7EE1F05F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7EE1F05F1","objectId":{"name":"OBJ_BT_Player","path":"objects/OBJ_BT_Player/OBJ_BT_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":448.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7EE1F05F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7EE1F05F1","objectId":{"name":"OBJ_BT_Player","path":"objects/OBJ_BT_Player/OBJ_BT_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6568.0,"y":734.0,},
         {"$GMRInstance":"v4","%Name":"inst_28468D95_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28468D95_1","objectId":{"name":"OBJ_BT_Bigrock","path":"objects/OBJ_BT_Bigrock/OBJ_BT_Bigrock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":480.0,},
         {"$GMRInstance":"v4","%Name":"inst_1A2EF787_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A2EF787_1","objectId":{"name":"OBJ_BT_Bigrock","path":"objects/OBJ_BT_Bigrock/OBJ_BT_Bigrock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":768.0,},
         {"$GMRInstance":"v4","%Name":"inst_40101A59_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40101A59_1","objectId":{"name":"OBJ_AT_Game","path":"objects/OBJ_AT_Game/OBJ_AT_Game.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":33.0,"y":43.0,},
@@ -51,14 +51,14 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":9900,
+    "Height":7777,
     "inheritRoomSettings":false,
     "persistent":true,
-    "Width":9900,
+    "Width":7777,
   },
   "sequenceId":null,
   "views":[
-    {"hborder":32,"hport":2200,"hspeed":-1,"hview":2200,"inherit":false,"objectId":{"name":"OBJ_BT_Player","path":"objects/OBJ_BT_Player/OBJ_BT_Player.yy",},"vborder":32,"visible":false,"vspeed":-1,"wport":4200,"wview":4200,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":2576,"hspeed":-1,"hview":2576,"inherit":false,"objectId":{"name":"Mapmova","path":"objects/Mapmova/Mapmova.yy",},"vborder":32,"visible":true,"vspeed":-1,"wport":2576,"wview":2576,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
@@ -68,7 +68,7 @@
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
   ],
   "viewSettings":{
-    "clearDisplayBuffer":true,
+    "clearDisplayBuffer":false,
     "clearViewBackground":false,
     "enableViews":false,
     "inheritViewSettings":false,

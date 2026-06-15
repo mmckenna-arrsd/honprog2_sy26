@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Particles.Effect
+/// @DnDVersion : 1
+/// @DnDHash : 527AA469
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "type" "4"
+effect_create_below(4, x + 0, y + 0, 0, $FFFFFF & $ffffff);
+
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Free
 /// @DnDVersion : 1
 /// @DnDHash : 2E971D67

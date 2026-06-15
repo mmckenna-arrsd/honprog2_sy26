@@ -5,6 +5,7 @@
   "ResourceOrderSettings":[
     {"name":"Font2","order":10,"path":"fonts/Font2/Font2.yy",},
     {"name":"Fullscrean","order":16,"path":"objects/Fullscrean/Fullscrean.yy",},
+    {"name":"Mapmova","order":19,"path":"objects/Mapmova/Mapmova.yy",},
     {"name":"obj_AT_button_parent","order":4,"path":"objects/obj_AT_button_parent/obj_AT_button_parent.yy",},
     {"name":"OBJ_AT_Game","order":2,"path":"objects/OBJ_AT_Game/OBJ_AT_Game.yy",},
     {"name":"OBJ_AT_Score","order":8,"path":"objects/OBJ_AT_Score/OBJ_AT_Score.yy",},
@@ -13,6 +14,7 @@
     {"name":"OBJ_CT_Bullet","order":3,"path":"objects/OBJ_CT_Bullet/OBJ_CT_Bullet.yy",},
     {"name":"OBJ_CT_Mine","order":11,"path":"objects/OBJ_CT_Mine/OBJ_CT_Mine.yy",},
     {"name":"OBJ_CT_Missile","order":12,"path":"objects/OBJ_CT_Missile/OBJ_CT_Missile.yy",},
+    {"name":"OBJ_CT_Warpoint_QJ","order":20,"path":"objects/OBJ_CT_Warpoint_QJ/OBJ_CT_Warpoint_QJ.yy",},
     {"name":"OBJ_CT_Warpoint","order":13,"path":"objects/OBJ_CT_Warpoint/OBJ_CT_Warpoint.yy",},
     {"name":"OBJ_DT_Button_Back","order":7,"path":"objects/OBJ_DT_Button_Back/OBJ_DT_Button_Back.yy",},
     {"name":"OBJ_DT_Button_Settings","order":6,"path":"objects/OBJ_DT_Button_Settings/OBJ_DT_Button_Settings.yy",},
@@ -27,6 +29,7 @@
     {"name":"Button_Settings","order":14,"path":"sprites/Button_Settings/Button_Settings.yy",},
     {"name":"Button_Start_1","order":18,"path":"sprites/Button_Start_1/Button_Start_1.yy",},
     {"name":"Button_Start","order":4,"path":"sprites/Button_Start/Button_Start.yy",},
+    {"name":"ggs","order":17,"path":"sprites/ggs/ggs.yy",},
     {"name":"Portalp","order":15,"path":"sprites/Portalp/Portalp.yy",},
     {"name":"Protective_Bubble","order":16,"path":"sprites/Protective_Bubble/Protective_Bubble.yy",},
     {"name":"spr_bullet_beam","order":9,"path":"sprites/spr_bullet_beam/spr_bullet_beam.yy",},
@@ -39,5 +42,7 @@
     {"name":"spr_rock_big","order":1,"path":"sprites/spr_rock_big/spr_rock_big.yy",},
     {"name":"spr_rock_small","order":2,"path":"sprites/spr_rock_small/spr_rock_small.yy",},
     {"name":"Sprite12","order":11,"path":"sprites/Sprite12/Sprite12.yy",},
+    {"name":"Sprite19","order":2,"path":"sprites/Sprite19/Sprite19.yy",},
+    {"name":"Sprite20","order":3,"path":"sprites/Sprite20/Sprite20.yy",},
   ],
 }

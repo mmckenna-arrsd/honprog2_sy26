@@ -26,3 +26,14 @@ if(Aperation == 1){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDArgument : "objectid" "OBJ_BT_Bigrock"
 	/// @DnDSaveInfo : "objectid" "OBJ_BT_Bigrock"
 	instance_create_layer(Rockdeathrepawnpoints, Rockdeathrepawnpoints, "Instances", OBJ_BT_Bigrock);}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 33E2BAF7
+else{	/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+	/// @DnDVersion : 1
+	/// @DnDHash : 5E913882
+	/// @DnDParent : 33E2BAF7
+	/// @DnDArgument : "xscale_relative" "1"
+	/// @DnDArgument : "yscale_relative" "1"
+	image_xscale += 1;image_yscale += 1;}

@@ -18,3 +18,13 @@ with(OBJ_BT_Player) direction = Portal.image_angle;
 /// @DnDApplyTo : {OBJ_BT_Player}
 /// @DnDArgument : "angle" "Portal.image_angle"
 with(OBJ_BT_Player) image_angle = Portal.image_angle;
+
+/// @DnDAction : YoYo Games.Particles.Effect
+/// @DnDVersion : 1
+/// @DnDHash : 2CA53A5B
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "type" "2"
+/// @DnDArgument : "where" "1"
+/// @DnDArgument : "color" "$FFFF00B6"
+effect_create_above(2, x + 0, y + 0, 0, $FFFF00B6 & $ffffff);
