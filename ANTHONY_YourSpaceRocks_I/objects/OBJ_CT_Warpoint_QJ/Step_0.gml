@@ -33,7 +33,7 @@ var l49EBD2F6_0;l49EBD2F6_0 = keyboard_check_pressed(vk_space);if (l49EBD2F6_0
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "Portal"
 		/// @DnDSaveInfo : "objectid" "Portal"
-		instance_create_layer(x + 0, y + 0, "Instances", Portal);
+		instance_create_layer(x + 0, y + 0, "Instances", OBJ_Portal);
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1

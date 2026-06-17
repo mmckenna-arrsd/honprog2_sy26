@@ -520,6 +520,6 @@ if(loaded == 0){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 			/// @DnDParent : 2E2B570B
 			/// @DnDArgument : "xpos_relative" "1"
 			/// @DnDArgument : "ypos_relative" "1"
-			/// @DnDArgument : "objectid" "Portal"
-			/// @DnDSaveInfo : "objectid" "Portal"
-			instance_create_layer(x + 0, y + 0, "Instances", Portal);}}}
+			/// @DnDArgument : "objectid" "OBJ_Portal"
+			/// @DnDSaveInfo : "objectid" "OBJ_Portal"
+			instance_create_layer(x + 0, y + 0, "Instances", OBJ_Portal);}}}

@@ -9,15 +9,15 @@ image_angle += random(x);
 /// @DnDVersion : 1
 /// @DnDHash : 337B0ACC
 /// @DnDApplyTo : {OBJ_BT_Player}
-/// @DnDArgument : "direction" "Portal.image_angle"
-with(OBJ_BT_Player) direction = Portal.image_angle;
+/// @DnDArgument : "direction" "OBJ_Portal.image_angle"
+with(OBJ_BT_Player) direction = OBJ_Portal.image_angle;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
 /// @DnDHash : 5D68800D
 /// @DnDApplyTo : {OBJ_BT_Player}
-/// @DnDArgument : "angle" "Portal.image_angle"
-with(OBJ_BT_Player) image_angle = Portal.image_angle;
+/// @DnDArgument : "angle" "OBJ_Portal.image_angle"
+with(OBJ_BT_Player) image_angle = OBJ_Portal.image_angle;
 
 /// @DnDAction : YoYo Games.Particles.Effect
 /// @DnDVersion : 1
