@@ -97,3 +97,18 @@ if(health <= 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "objectid" "OBJ_BT_Bigrock"
 	/// @DnDSaveInfo : "objectid" "OBJ_BT_Bigrock"
 	instance_create_layer(x + Rockdeathrepawnpoints, y + Rockdeathrepawnpoints, "Instances", OBJ_BT_Bigrock);}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0E979D03
+/// @DnDArgument : "var" "speed"
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "20"
+if(speed >= 20){	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 553BA0D1
+	/// @DnDParent : 0E979D03
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "type" "7"
+	effect_create_below(7, x + 0, y + 0, 0, $FFFFFF & $ffffff);}

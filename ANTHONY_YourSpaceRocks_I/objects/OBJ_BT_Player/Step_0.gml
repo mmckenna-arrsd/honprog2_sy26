@@ -183,10 +183,10 @@ if(loaded == 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
 				/// @DnDHash : 6A442FE8
 				/// @DnDParent : 5DFE6833
-				/// @DnDArgument : "expr" "-1"
+				/// @DnDArgument : "expr" "-0.5"
 				/// @DnDArgument : "expr_relative" "1"
 				/// @DnDArgument : "var" "spentammo"
-				spentammo += -1;}
+				spentammo += -0.5;}
 		
 			/// @DnDAction : YoYo Games.Common.Else
 			/// @DnDVersion : 1

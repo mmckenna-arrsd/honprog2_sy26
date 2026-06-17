@@ -47,8 +47,8 @@ shouldrotate = floor(random_range(1, 3 + 1));
 /// @DnDArgument : "var" "speed"
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "min" "3"
-/// @DnDArgument : "max" "14"
-speed = floor(random_range(3, 14 + 1));
+/// @DnDArgument : "max" "27"
+speed = floor(random_range(3, 27 + 1));
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -63,3 +63,26 @@ Aperation = 1;
 /// @DnDArgument : "steps" "62"
 /// @DnDArgument : "alarm" "7"
 alarm_set(7, 62);
+
+/// @DnDAction : YoYo Games.Random.Get_Random_Number
+/// @DnDVersion : 1
+/// @DnDHash : 29CFAD63
+/// @DnDArgument : "var" "scalemodifierx"
+/// @DnDArgument : "min" "-2.7"
+/// @DnDArgument : "max" "2.7"
+scalemodifierx = (random_range(-2.7, 2.7));
+
+/// @DnDAction : YoYo Games.Random.Get_Random_Number
+/// @DnDVersion : 1
+/// @DnDHash : 6C847CD2
+/// @DnDArgument : "var" "scalemodifiery"
+/// @DnDArgument : "min" "-2.7"
+/// @DnDArgument : "max" "2.7"
+scalemodifiery = (random_range(-2.7, 2.7));
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 1C0DE189
+/// @DnDArgument : "xscale" "scalemodifierx"
+/// @DnDArgument : "yscale" "scalemodifiery"
+image_xscale = scalemodifierx;image_yscale = scalemodifiery;
